@@ -16,7 +16,7 @@ git push -u origin master
  git push origin play-001  (create a new branch part 2, switch to it -- only once)
  vim test.py 
  git add test.py  (add a file)
- git commit -m "added test.py"   (commit the file)
+ git commit -am "added test.py"   (commit the file, note -am option)
  git branch   (see branch)
  git push origin  (push changes of current branch to repo)
 
